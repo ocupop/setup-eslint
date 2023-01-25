@@ -1,0 +1,21 @@
+{
+  "name": "@ocupop/setup-eslint",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=16"
+  },
+  "bin": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": "https://github.com/ocupop/setup-eslint.git",
+  "author": "dev@ocupop.com",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "yargs": "^17.6.2"
+  },
+  "peerDependencies": {},
+  "scripts": {}
+}
