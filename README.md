@@ -6,7 +6,7 @@ Sets up [Ocupops Eslint](https://github.com/ocupop/eslint-config) config within 
 Run the following `npx` command to install ESLint
 
 ```
-npx @ocupop/eslint-config
+npx @ocupop/setup-eslint
 ```
 
 ### Options
