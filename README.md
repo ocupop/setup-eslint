@@ -1,5 +1,6 @@
-# Ocupop Linter Config
-Sets up [ESLint](https://eslint.org/) config within `npx` across projects
+# Ocupop Linter Setup [@ocupop/setup-eslint](https://www.npmjs.com/package/@ocupop/setup-eslint)
+
+Sets up [Ocupops Eslint](https://github.com/ocupop/eslint-config) config within `npx`. This will set you up with a `.eslintrc` file that extends [@ocupop/eslint-config](https://www.npmjs.com/package/@ocupop/eslint-config)
 
 ## Setup
 Run the following `npx` command to install ESLint
@@ -23,8 +24,8 @@ Once installed, the package will add a new file `.eslintrc` where we can add add
 ### Scripts
 Within `package.json` two new scrips are installed.
 ```
-$ yarn checkLint  # will run eslint and validate files
-$ yarn lint       # formats all files (with specified extensions) 
+$ yarn lint       # will run eslint and validate files
+$ yarn checkLint  # formats all files (with specified extensions) 
 ```
 
 ### ESLint Extension
