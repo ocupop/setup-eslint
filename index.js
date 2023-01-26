@@ -72,7 +72,7 @@ function addLinter() {
 
   // add packages to the project
   childProccess.execSync(
-    `npm install --save-dev ${lintPackage}`,
+    `npm install --save-dev ${lintPackage}@latest`,
     {
       stdio: 'inherit'
     }

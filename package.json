@@ -1,6 +1,6 @@
 {
   "name": "@ocupop/setup-eslint",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "engines": {
     "node": ">=16"
   },
@@ -16,8 +16,7 @@
     "fs": "^0.0.1-security",
     "yargs": "^17.6.2"
   },
-  "peerDependencies": {
-    "@ocupop/eslint-config": "^0.1.0"
+  "devDependencies": {
   },
   "scripts": {}
 }
